@@ -1,0 +1,421 @@
+/*-------Landing Page-------*/
+
+	body {background-color: #EDEEEE;}
+	
+	/*Background*/
+	#landing { height:100vh; animation: landingback 18s ease-in-out; animation-iteration-count: infinite; font-family: 'News Cycle', sans-serif;}
+	
+	@keyframes landingback {
+	
+		0% {
+			background: url(https://c4.staticflickr.com/9/8531/29616347211_22c2792976_b.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-color: rgba(0,0,0,0.1);
+		
+		}
+		
+		33% {
+			background: url(https://c1.staticflickr.com/9/8490/29406806600_479c0bcc1d_b.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-color: rgba(0,0,0,0.5);
+			
+		}
+	
+		66% {
+			background: url(https://c3.staticflickr.com/9/8367/29406804290_2f0bf9b82d_b.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-color: rgba(0,0,0,0.5);
+			
+		}
+	
+		100% {
+			background: url(https://c4.staticflickr.com/9/8531/29616347211_22c2792976_b.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-color: rgba(0,0,0,0.5);
+		}
+
+	}    
+	
+	/*Rows*/
+	#landing .row {padding-bottom: 1%; position: relative; top: 5%;}
+	
+	/*Logo*/
+	#title {color: black; width: 40%;}
+	
+	/*Social Media Icons*/
+	#social {font-size: 300%; color: black;}
+	#social i, .glyphicon{color: black; padding-left: 2%; padding-right: 2%;}
+	#social i:hover {color: #14386b;}
+	
+	/*Links to sections of page*/
+	.link {letter-spacing: 4px;text-align: center;font-size: 150%;font-weight: bold;padding-right: 5%;position: relative;left: 1.5%;}
+	#tagline a {color: black;}
+	#tagline a:hover {text-decoration: none; color: #14386b; font-size: 200%;}
+	
+	/*----email---*/
+	#email p {letter-spacing: 2px;text-align: center;font-size: 150%;font-weight: bold;}
+	#email p {color: black; margin-left: auto; margin-right: auto;}
+	#email p:hover id {color: white; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+	
+	/*Down Arrow*/
+	.glyphicon:hover {color: white;}
+	.down-arrow {position: relative; top: 100%;}
+	
+/*-------About Us-------*/
+
+	main {font-family: News Cycle; background-color: #EDEEEE;}
+	main p {font-size: 120%;}
+	main .row {padding-top: 5%; padding-right: 1%; padding-left: 1%;}
+	#one, #two, #three {width: 100%; padding: 1%;} /*Pictures
+	section	{background-color: #EDEEEE}
+
+/*-------FAQ-------*/
+	
+	section {border: solid 10px #14386b; background-color: #14386b; font-family: 'News Cycle';}
+	#begFAQ {background-color: white; padding-top: 1.5%; padding-bottom: 1.5%; border-radius: 0.2em; border: 1px solid white;}
+	section ul {list-style-type: none; margin-top: 1.5%;display: list-item; width: 66%; background-color: white; border-radius: 0.2em; border:1px solid white; position: relative; left: 17%; padding-right: 3.5%;}
+	section li {padding: 1%;}
+	section h1, section h3 {font-weight: bold;}
+	section li p {font-size: 160%;}
+
+	
+/*-------Events-------*/
+
+	#events {background-color: #EDEEEE; font-family: 'News Cycle';}
+	#inter, #tmo {color: #333333; border: 5px solid #EDEEEE; font-weight: bold;}
+ 
+	/*Intervarsities*/
+	#inter p {font-size: 18px;}
+	#surfgif {width: 100%; padding-top: 10px;}
+	#listy {background-color: #ffe766; color: black; padding-top: 5px; padding-bottom: 10px; border-radius: 40px;} /* Intervarsities Winners */
+	
+	
+/* -------Movable Navigation Bar on Body ------*/
+	
+	.menu {height: 3em; position:absolute; width: 100%; z-index:1; background-color: #2E2E2E;}
+	.navigate { position: relative; top: 13%;}
+	.navigate a {padding-left: 1%; padding-right: 1%; text-align: center; letter-spacing: 1%; color: white !important;}
+	.navigate a:hover{border-bottom: solid 5px #FFFF00;text-decoration: none;}
+	.fixed {position:fixed; top:0;}
+	.navigate {font-family: 'News Cycle';}
+	
+	#joinus {background-color: #E48681; border-color: rgba(0,0,0,0.6); text-shadow: 0 1px 0 rgba(0,0,0,0.5); color: #FFF;}
+	#joinus:hover {background-color: #DA4F49; border-color: rgba(0,0,0,0.5);}
+
+	.menu a {color: back ;font-size: 170%;}
+	navbar-nav a:hover, .navbar-nav a:active {color: black;}
+	
+/*-------General/Other-------*/
+	footer {font-family: 'News Cycle'; margin-top: 2%;}
+	
+/*-------Trips-------*/
+	#trips {font-family:'News Cycle'; background-color: #EDEEEE; font-size: 200%; }
+	#trips img:hover:not(#cancelsize) {animation: imagesizer 100s ease-out;}
+	#trips .row {margin-top: 2%; color: dark-grey; padding: 1%;}
+	.tripsbox .row {vertical-align: middle;}
+	#tripsbox p {font-size: 20%;}
+	
+
+	@keyframes imagesizer {
+		0% {
+		width: 29%;
+		}
+		
+		1% {
+		width: 40%;
+		}
+		
+		100% {
+			width: 40%;
+		}
+	} 
+	
+	
+	#ennis img {width: auto; height: 365px; max-height: 365px;}
+	
+/*-----Gallery-----*/
+
+	.thumbnail {text-align: center; background-color: #EDEEEE; border: none; font-family: 'News Cycle';}
+	.thumbnail:hover { border: solid 5px #333333; }
+	.thumbnail a:hover { text-decoration: none; }
+	.block { width: 100%; height: 100%; border: solid 2px black; background-color: white; }
+	
+/*-------Calendar-------*/
+
+	#whatson .row { padding: 1%; margin-top: 1%; }
+	#whatson h3 { font-size: 200%; color: #14386b; font-weight: bold; }
+	#whatson h4 { font-size: 150%; color: #333333; }
+	.fb-page {float: left;}
+	.carousel{float: right;}
+	.carousel-control.left, .carousel-control.right { background-image: none }
+	.carousel-inner > .item > .bollox { margin: 0 auto; }
+	
+
+/* Messy video section */
+/* Abandon hope all ye who enter here */
+	.video-section .pattern-overlay {
+		background-color: rgba(71, 71, 71, 0.59);
+		padding: 110px 0 32px;
+		min-height: 496px; 
+	}
+	.video-section h1, .video-section h3{
+		text-align:center;
+		color:#fff;
+	}
+	.video-section h1{
+		font-size:110px;
+		font-family: 'News Cycle', serif;
+		font-weight:bold;
+		text-transform: uppercase;
+		margin: 40px auto 0px;
+		text-shadow: 1px 1px 1px #000;
+		-webkit-text-shadow: 1px 1px 1px #000;
+		-moz-text-shadow: 1px 1px 1px #000;
+	}
+	.video-section h3{
+	font-size: 25px;
+	font-weight:lighter;
+	margin: 0px auto 15px;
+	font-family: 'News Cycle', serif;
+	}
+	.video-section .buttonBar{display:none;}
+	.player {font-size: 1px;}
+	
+/*Another One*/
+
+.videoy-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 496px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.videoy-section h1, .videoy-section h3{
+text-align:center;
+color:#fff;
+}
+.videoy-section h1{
+font-size:110px;
+font-family: 'News Cycle', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.videoy-section h3{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+font-family: 'News Cycle', serif;
+}
+.videoy-section .buttonBar{display:none;}
+.player, {font-size: 1px;}
+
+/*THREE*/
+
+.videor-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 496px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.videor-section h1, .videor-section h3{
+text-align:center;
+color:#fff;
+}
+.videor-section h1{
+font-size:110px;
+font-family: 'News Cycle', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.videor-section h3{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+font-family: 'News Cycle', serif;
+}
+.videor-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+/*FOUR*/
+
+.vide-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 496px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.vide-section h1, .vide-section h3{
+text-align:center;
+color:#fff;
+}
+.vide-section h1{
+font-size:110px;
+font-family: 'News Cycle', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.vide-section h3{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+font-family: 'News Cycle', serif;
+}
+.vide-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+/*FIVE*/
+
+.vid-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 496px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.vid-section h1, .vid-section h3{
+text-align:center;
+color:#fff;
+}
+.vid-section h1{
+font-size:110px;
+font-family: 'News Cycle', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.vid-section h3{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+font-family: 'News Cycle', serif;
+}
+.vid-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+/*SIX - BUNDORAN*/
+
+.new-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+
+min-height: 365px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.new-section h1, .vid-section h3{
+text-align:center;
+color:#fff;
+}
+.new-section h1{
+
+font-family: 'News Cycle', serif;
+font-weight:bold;
+text-transform: uppercase;
+position: relative;
+right: 25px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.new-section h3{
+color: #fff;
+font-weight:lighter;
+position: relative;
+right: 25px;
+padding: 5px;
+font-family: 'News Cycle', serif;
+}
+.new-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+/*SEVEN - FOREIGN TRIP*/
+
+.for-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+
+min-height: 365px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.for-section h1, .vid-section h3{
+text-align:center;
+color:#fff;
+}
+.for-section h1{
+
+font-family: 'News Cycle', serif;
+font-weight:bold;
+text-transform: uppercase;
+position: relative;
+right: 25px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.for-section h3{
+color: #fff;
+font-weight:lighter;
+position: relative;
+right: 25px;
+padding: 5px;
+font-family: 'News Cycle', serif;
+}
+.for-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+/*EIGHT - DUNFANAGHY*/
+
+.surf-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+
+min-height: 365px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.surf-section h1, .vid-section h3{
+text-align:center;
+color:#fff;
+}
+.surf-section h1{
+
+font-family: 'News Cycle', serif;
+font-weight:bold;
+text-transform: uppercase;
+position: relative;
+right: 25px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.surf-section h3{
+color: #fff;
+font-weight:lighter;
+position: relative;
+right: 25px;
+padding: 5px;
+font-family: 'News Cycle', serif;
+}
+.surf-section .buttonBar{display:none;}
+.player {font-size: 1px;}
