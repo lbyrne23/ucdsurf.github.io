@@ -270,6 +270,25 @@ video {
 	background-size: cover;
 }
 
+#expo{
+	padding: 5%;
+	background: url(events/expo.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#night{
+	padding: 5%;
+	background: url(events/night.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#yoga{
+	padding: 5%;
+	background: url(events/yoga.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
 
 
 
