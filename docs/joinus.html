@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>UCD Surf | Join Us </title>
+  <link rel="stylesheet" href="projectcss.css">
+  <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+</head>
+
+<body>
+<div id="navbar">
+	<ul>
+		<li> <a href="project.html#navbar"> About Us </a> </li>
+		<li> <a href="trips.html"> Trips </a> </li>
+		<li> <a href="events.html"> Events </a> </li>
+		<li> <a href="ourmembers.html"> Our Members </a> </li>
+		<li> <a href="faq.html"> FAQ </a> </li>
+		<li> <a class="join" href="joinus.html"> JOIN US </a> </li>
+	</ul>
+</div>
+
+<form method="POST">
+<div class="formtext">
+Name: <br>
+<input type="text" name="firstname" id="fname"><br>
+E-mail:<br>
+  <input type="text" name="email" value="" id="email"><br>
+Student Number :<br>
+  <input type="text" name="number" id="number">
+  <br>
+  <br>
+Surfing Level:<br>
+<input type="radio" name="level" value="Beginner" checked> Beginner <br>
+<input type="radio" name="level" value="Intermediate"> Intermediate<br>
+<input type="radio" name="level" value="Advanced"> Advanced
+
+<br><br> <input type="submit" value="Submit" onClick="emailvalidator();">
+</div>
+</form>
+<script type="text/javascript" src="project.js"></script>
+</body>
+</html>

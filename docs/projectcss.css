@@ -1,0 +1,334 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+/*Font for entire project*/
+*{
+	font-family: 'News Cycle', sans-serif;
+}
+	/*Splash Screen*/
+	#landing-page { height:100vh; animation: landingback 18s ease-in-out; animation-iteration-count: infinite;}
+	
+	/*Animation for splash screen*/
+	@keyframes landingback {
+	
+		0% {
+			background: url(landing/wave.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-color: rgba(0,0,0,0.3);
+			
+		
+		}
+		
+		33% {
+			background: url(landing/members.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-color: rgba(0,0,0,0.3);
+			
+			
+		}
+	
+		66% {
+			background: url(landing/beach.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-color: rgba(0,0,0,0.3);
+			
+			
+		}
+	
+		100% {
+			background: url(landing/wave.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-color: rgba(0,0,0,0.3);
+			
+		}
+
+	}    
+
+/*UCD SURF Logo*/
+#logo {
+	padding-top: 5%;
+	height: 60%;
+	position: relative;
+	left: 30%;
+	width: 40%;
+}
+
+#logo img{
+	width: 100%;
+}
+
+/*Page Links - Splash Screen*/
+#tagline {	
+	padding-top: 5%;
+}
+
+#tagline .link{
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #000;
+	color: white;
+	font-size: 1.5vw;
+	letter-spacing: 0.1vw;
+}
+
+/*Change on Hover*/
+#tagline .link:hover{
+
+	color: #14386b;
+	font-size: 150%;
+
+}
+
+#tagline .link {
+	padding: 5%;
+}
+
+/* ------- About Us page ------*/
+#index{
+	background-color: #fafafa;
+}
+
+.aboutrow {
+	height: 25%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.aboutimg img{
+	display: inline-block;
+    float: right;
+	width:33%;
+	height: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.abouttext {
+	display: inline-block;
+    float: left;
+	width: 66%;
+	height: 100%;
+	font-size: 110%;
+}
+
+/* -------------*/
+
+/* ------- Navigation Bar ------*/
+#navbar {
+	height: 20%;
+	width: 100%;
+	background-color: #282829;
+}
+
+#navbar ul {
+	display: inline;    
+}
+
+.join{
+	background-color: #c93030;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	text-decoration: none;
+	display: inline;
+	font-size: 120%;
+	color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+	letter-spacing: 1px;
+}
+
+#navbar a:hover {
+	background-color: #14386b;
+}
+/* -------------*/
+
+/* -------Join Us Page------*/
+form {
+	font-size: 150%;
+	background: url(about/join.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	text-align: center;
+	padding: 5%;
+	
+}
+
+.formtext {
+	position: relative;
+	left: 25%;
+	background: rgba(155, 155, 155, 0.7);
+	padding: 1%;
+	width: 50%;
+	font-weight: bold;
+}
+/* -------------*/
+
+/* ------Trips-------*/
+video {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+	min-width: 100%;
+	min-height: 100%;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.tripstext {
+	background: rgba(155, 155, 155, 0.4);
+	width: auto;
+    height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	text-align: center;
+	
+}
+
+.tripstext h1 {
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+	color: white;
+	font-size: 300%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+.tripstext h2, .tripstext p{
+	text-shadow: 1px 1px 1px #000;
+	color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.tripstext p{
+	font-size: 120%;
+}
+
+.eventsrow {
+	display: inline-block;
+	background: rgba(180, 180, 180, 0.4);
+	margin: 5%;
+}
+/* -------------*/
+
+/* ------Events-------*/
+#events {
+	background-color: #fafafa;
+}
+
+.eventsbox{
+	display: inline-block;
+	height: 30%;
+	padding: 10%;
+	text-shadow: 1px 1px 1px #ffffff;
+	color: black;
+	text-align: center;
+}
+
+.eventsbox p{
+	font-size: 120%;
+}
+
+#paddle{
+	padding: 5%;
+	background: url(events/paddle.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#ball{
+	padding: 5%;
+	background: url(events/ball.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#relay{
+	padding: 5%;
+	background: url(events/relay.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#info{
+	padding: 5%;
+	background: url(events/info.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+
+
+/* -------------*/
+
+/* ------Our Members -------*/
+section {
+	background: url(about/lesson.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+.membersrow {
+	display: inline-block;
+	background: rgba(180, 180, 180, 0.8);
+	margin: 5%;
+	padding: 2%;
+	text-align: center;
+}
+
+.text {
+	float: left;
+	width: 50%;
+	font-size: 120%;
+	text-shadow: 1px 1px 1px #000;
+	color: white;
+}
+
+.gifs{
+	float: right;
+	width: 50%;
+}
+
+.gifs img{
+	width: 60%;
+}
+
+/* -------------*/
+
+/* ------FAQ-------*/
+
+#faq {
+	text-align: center;
+	margin: 10%;
+	background-color: #fafafa;
+	padding: 2%;
+}
+
+#faq h1 {
+	color: #14386b;
+	font-size: 200%;
+}
+
+#faq p {
+	color: black;
+	font-size: 150%;
+}
+
+#wrap:not(#faq){
+	background: url(about/wave.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+/* -------------*/
