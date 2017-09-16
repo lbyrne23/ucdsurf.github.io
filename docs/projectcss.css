@@ -158,22 +158,45 @@ html,body {
 /* -------------*/
 
 /* -------Join Us Page------*/
-form {
-	font-size: 150%;
-	background: url(about/join.jpg) no-repeat center center fixed; 
-	background-size: cover;
+
+.textjoin {
 	text-align: center;
-	padding: 5%;
-	
+	background: url(landing/flute.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-size: 200%;
+	text-shadow: 1px 1px 1px #000;
+	color: white;
 }
 
-.formtext {
-	position: relative;
-	left: 25%;
-	background: rgba(155, 155, 155, 0.7);
-	padding: 1%;
-	width: 50%;
-	font-weight: bold;
+#huh {
+	background-color: rgba(0,0,0,0.3);
+	width: 75%;
+	display: inline-block;
+	padding: 2%;
+	margin: 1%;
+}
+
+.links {
+		border: solid 1px yellow;
+		background-color: rgba(0,0,0,0.3);
+		display: inline-block;
+		padding: 1%;
+		margin: 1%;
+}
+
+.textjoin a {
+	text-decoration: none;
+	color: white;
+	padding: 3%;
+}
+
+.textjoin a:hover {
+	text-decoration: none;
+	color: yellow;
+	padding: 3%;
 }
 /* -------------*/
 
@@ -190,15 +213,14 @@ video {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.tripstext {
+/*.tripstext {
 	background: rgba(155, 155, 155, 0.4);
 	width: auto;
     height: auto;
 	min-width: 100%;
 	min-height: 100%;
 	text-align: center;
-	
-}
+} */
 
 .tripstext h1 {
 	text-transform: uppercase;
@@ -207,7 +229,7 @@ video {
 	font-size: 300%;
 	padding-left: 5%;
 	padding-right: 5%;
-
+	text-align: center;
 }
 
 .tripstext h2, .tripstext p{
@@ -219,6 +241,13 @@ video {
 
 .tripstext p{
 	font-size: 120%;
+}
+
+.tripsrow{
+	padding: 1%;
+	margin: 5%;
+	background: rgba(155, 155, 155, 0.7);
+	text-align: center;
 }
 
 .eventsrow {
@@ -234,7 +263,7 @@ video {
 }
 
 .eventsbox{
-	display: inline-block;
+	display: inline;
 	height: 30%;
 	padding: 10%;
 	text-shadow: 1px 1px 1px #ffffff;
