@@ -187,6 +187,14 @@ html,body {
 		margin: 1%;
 }
 
+.links h1 {
+	color: yellow;
+}
+
+.links a {
+	color: blue;
+}
+
 .textjoin a {
 	text-decoration: none;
 	color: white;
@@ -366,7 +374,7 @@ section {
 
 .membersrow {
 	display: inline-block;
-	background: rgba(180, 180, 180, 0.8);
+	background: rgba(180, 180, 180, 0.4);
 	margin: 5%;
 	padding: 2%;
 	text-align: center;
@@ -376,7 +384,7 @@ section {
 	float: left;
 	width: 50%;
 	font-size: 120%;
-	text-shadow: 1px 1px 1px #000;
+	text-shadow: 2px 1px 1px #000000;
 	color: white;
 }
 
