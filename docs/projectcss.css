@@ -232,7 +232,16 @@ video {
 	text-align: center;
 }
 
-.tripstext h2, .tripstext p{
+#locs {
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+	color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+}
+
+.tripstext h2, .tripstext h3, .tripstext p{
 	text-shadow: 1px 1px 1px #000;
 	color: white;
 	padding-left: 5%;
@@ -246,7 +255,7 @@ video {
 .tripsrow{
 	padding: 1%;
 	margin: 5%;
-	background: rgba(155, 155, 155, 0.7);
+	background: rgba(155, 155, 155, 0.4);
 	text-align: center;
 }
 
@@ -299,6 +308,30 @@ video {
 	background-size: cover;
 }
 
+#tripevent{
+	padding: 5%;
+	background: url(events/tripevent.jpg) no-repeat center center fixed;
+	background-size: cover;text-shadow: 1px 1px 1px #000000;
+	color: white;
+}
+
+#comps{
+	padding: 5%;
+	background: url(events/colours.jpg) no-repeat center center fixed;
+	background-size: cover;
+	text-shadow: 1px 1px 1px #000000;
+	color: white;
+}
+
+
+#info{
+	padding: 5%;
+	background: url(events/info.jpg) no-repeat center center fixed;
+	background-size: cover;
+	text-shadow: 1px 1px 1px #000000;
+	color: white;
+}
+
 #expo{
 	padding: 5%;
 	background: url(events/expo.jpg) no-repeat center center fixed;
@@ -309,6 +342,8 @@ video {
 	padding: 5%;
 	background: url(events/night.jpg) no-repeat center center fixed;
 	background-size: cover;
+	text-shadow: 1px 1px 1px #000000;
+	color: white;
 }
 
 #yoga{
